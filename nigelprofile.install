@@ -1,9 +1,12 @@
 <?php
 
 /**
- * Implements hook_install().
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
  */
 function nigelprofile_install() {
-  theme_enable(array('rubik'));
-  variable_set('theme_default', 'rubik');
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();
 }
+?>

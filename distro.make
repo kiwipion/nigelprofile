@@ -1,6 +1,9 @@
-; Include Build Kit distro makefile via URL
-includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/distro.make
+; Makefile for nigelprofile file
+core = 7.x
+projects[] = drupal
+api = 2
 
+; profile
 ; Adding my projects to the full distro build
 projects[nigelprofile][type] = profile
 projects[nigelprofile][download][type] = git
