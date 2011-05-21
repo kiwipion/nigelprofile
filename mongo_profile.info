@@ -1,6 +1,6 @@
 ; $Id$
-name = Nigel Base Profile
-description = Get started fast on a site build.
+name = Mongo Profile
+description = Profile for mongo db enabled site
 core = 7.x
 
 ; Core
